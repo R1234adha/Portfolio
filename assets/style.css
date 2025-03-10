@@ -171,6 +171,7 @@ section{
     margin: auto 0;
 }
 
+
 .section__text {
     align-self: center;
     text-align: center;
@@ -265,33 +266,41 @@ section{
     gap:3rem;
 }
 
-/* About Section */
+/*ABOUT SECTION*/
+
 #about {
     position: relative;
+    background-image: url('./images/sample3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem;
 }
 
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .about-details-container {
-    justify-content: center;
+    display:flex;
+    margin-top: 2rem;
     flex-direction: column;
-}
-
-.about-containers, .about-details-container {
-    display: flex;
+    justify-content: center;    
+    text-align: center ;
 }
 
 .about-pic {
-    border-radius: 2rem;
+    border-radius: 4rem;
+    max-width: 300px;
+    height: auto;
 }
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: 0;
     bottom: 2.5rem;
 }
 
@@ -299,22 +308,42 @@ section{
     padding: 1rem;
     flex: 1;
     background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163); /* Corrected the misspelling here */
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(163, 163, 163);
     text-align: center;
 }
 
-.section-container {
-    gap: 4rem;
-    height: 80%;
+.section__pic-container1{
+    display:inline-flex;
+    align-items: end;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+.section__text__p3{
+    text-align: center;
+    color: rgb(94, 82, 109);
 }
 
-.section-pic-container {
-    height: 200px;
-    width: 200px;
-    margin: auto;
+.text-container{
+    text-align: justify;
+    color: black;
+
 }
+
+.section__container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 
 
 
