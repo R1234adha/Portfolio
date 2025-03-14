@@ -30,6 +30,7 @@ a,
 nav,
 .nav-links {
     display: flex;
+    background-color: rgb(174, 219, 192);
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: rgb(49, 49, 59);
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -162,17 +163,20 @@ section{
     justify-content: center;
     gap: 5rem;
     height:80vh;
-    background-image: url('./images/BG\ img4.avif');
+    background-position: top center;
+    background-attachment: fixed;
+    background-position: center ;
     background-repeat: no-repeat;
-    background-size:cover;
-    width: 90%; 
-    margin-left: 0;
+    background-size: cover;
+    width: 85%; 
+    margin-left: 7rem;
+    margin-right: 4rem;
 }
 
 .section__pic-container {
     display:flex;
     height: 400px;
-    width: 400px;
+    width: 500px;
     margin: auto 0;
 }
 
@@ -201,22 +205,18 @@ section{
 
 .title {
     font-size: 2.5rem;
+    color: rgb(94, 82, 109);
     text-decoration: underline;
     font-weight:bold;
     text-align:center;
 }
 
-.section__text__p2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: rgb(94, 82, 109);
-}
-
 #socials-container{
     display: flex;
     justify-content: center;
+    border-radius: 4rem;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 /*ICONS*/
@@ -243,7 +243,7 @@ section{
 }
 
 .btn-color-1, .btn-color-2{
-     border:rgb(53, 53, 53) 0.1rem solid;
+     border:rgb(94, 82, 109) 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover{
@@ -251,12 +251,12 @@ section{
 }
 
 .btn-color-1, .btn-color-2:hover{
-    background: rgb(53, 53, 53);
+    background: rgb(94, 82, 109);
     color: white;
 }
 
 .btn-color-1:hover{
-    background: rgb(0,0,0);
+    background: rgb(54, 105, 84);
 }
 
 .btn-color-2{
@@ -264,7 +264,7 @@ section{
 }
 
 .btn-color-2:hover{
-    border: rgb(0, 0, 0) 0.1rem solid;
+    border:rgb(54, 105, 84) 0.1rem solid;
 }
 
 .btn-container{
@@ -274,13 +274,43 @@ section{
 /*ABOUT SECTION*/
 
 #about {
-    position: relative;
+    position: relative;    
+    background-image: url('./images/Img\ BG\ main\ 1.jpg');
+    background-position: top center;
+    background-attachment: fixed;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 7rem;
-    width: 100%; 
-    margin-left: 0;
-    color: rgb(94, 82, 109);;
+    padding: 4rem;
+    width: 85%; 
+    margin-left: 6rem;
+    color: rgb(94, 82, 109);
+}
+
+.section__text__p3{
+    text-align: center;
+    color: rgb(94, 82, 109);
+}
+
+.section__container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-pic {
+    border-radius: 10rem;
+    max-width: 300px;
+    height: auto;
+}
+
+.section__pic-container1{
+    display:flex;
+    align-items: end;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
 }
 
 .about-containers {
@@ -298,19 +328,13 @@ section{
     flex-direction: column;
     justify-content: center;    
     text-align: center ;
-    color: rgb(94, 82, 109);;
+    color: rgb(94, 82, 109);
 }
-
-.about-pic {
-    border-radius: 4rem;
-    max-width: 300px;
-    height: auto;
-}
-
 .arrow {
     position: absolute;
     right: 0;
     bottom: 2.5rem;
+    position: fixed;
 }
 
 .details-container {
@@ -318,34 +342,20 @@ section{
     flex: 1;
     background: white;
     border-radius: 1rem;
-    border: 0.1rem solid rgb(94, 82, 109);;
+    border: 0.1rem solid rgb(94, 82, 109);
     text-align: center;
-}
-
-.section__pic-container1{
-    display:flex;
-    align-items: end;
-    height: 300px;
-    width: 300px;
-    margin: auto 0;
-}
-.section__text__p3{
-    text-align: center;
-    color: rgb(94, 82, 109);
 }
 
 .text-container{
     text-align: justify;
+    background: #f7f7f7;
     color: black;
 
 }
 
-.section__container1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
+
+
+
 
 
 
