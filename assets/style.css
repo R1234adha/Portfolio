@@ -362,7 +362,7 @@ section{
 
 #experience{
     position:relative;
-    background-image: url('./images/BG\ exp.avif');
+    background-image: url('./images/flower.jpg');
     background-position: top center;
     background-attachment: fixed;
     background-position: center ;
@@ -375,11 +375,22 @@ section{
     border-radius: 50px;   
 }
 
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; 
+}
+
  .experience-sub-title{
-    color: rgb(104, 131, 134);
-    font-weight: 600;
+    color: rgb(91, 60, 102);
+    font-weight: bold;
+    font-weight: 700;
+    background-color: #f7f7f7;
+    border-radius: 1rem;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
     text-decoration: underline;
  }
@@ -422,16 +433,17 @@ article p {
 }
 
 .details-containers {
-    display: flex;
+    display:flex;
+    background-color: rgb(216, 236, 216);
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
-    width: 20%; 
+    width: 800%; 
     max-height: 600px; 
     max-width: 200px;
     overflow-y: auto;
     align-items: center;
-    border: 0.1rem solid rgb(168, 189, 199);
+    border: 0.1rem solid rgb(173, 206, 171);
     border-radius: 10px;
 }
 
@@ -457,9 +469,3 @@ article p {
     background-color: #abcbd8;  
     scrollbar-gutter: stable;
   }
-
-
-
-
-
-
