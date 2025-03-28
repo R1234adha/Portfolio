@@ -561,30 +561,72 @@ footer p{
 
 /*Skills*/
 
-.skills-container {
-    width: 60%;
-    margin: auto;
-    text-align: left;
-    background: #ffffff;
+.container{
+    position:relative;
+    /* background-image: url('./images/Img\ BG\ main\ 1.jpg'); */
+    background-position: top center;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    width: 90%; 
+    margin-left: 2rem;
+    border: 0.1rem solid rgb(174, 218, 187);
+    border-radius: 50px; 
+}
+
+.skills-wholecontainer {   
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    background-color: #ffffff;  
+    width: 100%;
+    margin: auto;   
     padding: 20px;
-    border-radius: 8px;
+} 
+
+.skills-container-1,
+.skills-container-2,
+.skills-container-3,
+.skills-container-4 {
+    width: calc(50% - 20px);
+    background: #e4ebee;
+    /* background-image: url('./images/Img\ BG\ main\ 1.jpg'); */
+    padding: 20px;
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #3d3c97;
 }
 
 .skill {
-    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
 }
 
 .skill-name {
-    font-weight: bold;
-    margin-bottom: 5px;
+    font-weight: 500;
+    font-style: italic;
+    color: #2a213f;
     font-size: 18px;
+    background-color: #eff1ee;
+}
+
+.skill-bar-container {
+    flex: 50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .skill-bar {
-    width: 60%;
+    width: 80%;
     height: 10px;
     background: #e0e2da;
-    border-radius:5px;
+    border-radius: 5px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 10px #3c7d97;
@@ -597,6 +639,13 @@ footer p{
     border-radius: 5px;
     box-shadow: 0 0 10px #3e91b3;
     animation: fillEffect 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+
+.skill-percentage {
+    font-weight: 400;
+    min-width: 100px;
+    color: #594685;
+    background-color: #eff1ee;
 }
 
 @keyframes fillEffect {
@@ -612,7 +661,6 @@ footer p{
     }
 }
 
-
 .gallery-container {
     display: flex;
     overflow-x: auto;
@@ -621,6 +669,7 @@ footer p{
     white-space: nowrap;
     scroll-behavior: smooth;
 }
+
 .card {
     flex: 0 0 auto;
     width: 250px;
@@ -630,18 +679,22 @@ footer p{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+
 .card img {
     width: 100%;
     height: 85px;
     object-fit: cover;
 }
+
 .card-content {
     padding: 15px;
 }
+
 .card-content h3 {
     margin: 6px 0;
     font-size: 18px;
 }
+
 .card-content p {
     font-size: 15px;
     color: #594685;
@@ -655,6 +708,8 @@ footer p{
     text-decoration: none;
     border-radius: 5px;
 }
+
+
 
 
 
