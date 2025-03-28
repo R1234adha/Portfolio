@@ -36,8 +36,8 @@ nav,
     background-attachment: fixed;
     background-position: center ;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color:#2c273b;
+    background-size: contain;
+    background-color:#594f77;
 }
 
 nav {
@@ -361,7 +361,7 @@ section{
 
 #experience{
     position:relative;
-    /* background-image: url('./images/Img\ BG\ main\ 1.jpg'); */
+    background-image: url('./images/Img\ BG\ main\ 1.jpg'); 
     background-position: top center;
     background-attachment: fixed;
     background-position: center ;
@@ -371,7 +371,8 @@ section{
     width: 85%; 
     margin-left: 6rem;
     border: 0.1rem solid rgb(174, 218, 187);
-    border-radius: 50px;   
+    border-radius: 50px;  
+    margin-top: 30px;  
 }
 
 .section-title {
@@ -478,23 +479,24 @@ article p {
     background-attachment: fixed;
     background-position: center ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding: 4rem;
     width: 85%; 
     margin-left: 6rem;
     border: 0.1rem solid rgb(174, 218, 187);
-    border-radius: 50px;  
+    border-radius: 50px; 
+    margin-top: 30px; 
   }
   
-  .color-conatainer{
+  .color-conatainer{ 
     border-color: (163,163,163);
     background:(250,250,250);
   }
 
   .project-img{
-    border-radius: 2rem;
-    width:90%;
-    height:50%;
+    border-radius: 1rem;
+    width:80%;
+    height:30%;
   }
 
   .project-title{
@@ -504,7 +506,7 @@ article p {
 
   .project-btn{
     color:rgb(65, 45, 83);
-    border-color: (163,163,163);
+    border-color: (150,150,150);
   }
 
 
@@ -563,24 +565,24 @@ footer p{
 
 .container{
     position:relative;
-    /* background-image: url('./images/Img\ BG\ main\ 1.jpg'); */
+    background-image: url('./images/Img\ BG\ main\ 1.jpg'); 
     background-position: top center;
     background-attachment: fixed;
     background-position: center ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding: 4rem;
     width: 90%; 
     margin-left: 2rem;
     border: 0.1rem solid rgb(174, 218, 187);
-    border-radius: 50px; 
+    border-radius: 50px;    
 }
 
 .skills-wholecontainer {   
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 20px; 
+    gap: 40px; 
     background-color: #ffffff;  
     width: 100%;
     margin: auto;   
@@ -592,8 +594,8 @@ footer p{
 .skills-container-3,
 .skills-container-4 {
     width: calc(50% - 20px);
-    background: #e4ebee;
-    /* background-image: url('./images/Img\ BG\ main\ 1.jpg'); */
+    background: #f3eef2;
+    /* background-image: url('./images'); */
     padding: 20px;
     border-radius: 8px;  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -629,15 +631,15 @@ footer p{
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 0 10px #3c7d97;
+    box-shadow: 0 0 10px #d5bae2;
 }
 
 .skill-fill {
     height: 100%;
     width: 0;
-    background: #689baf;
+    background: #d5bae2;
     border-radius: 5px;
-    box-shadow: 0 0 10px #3e91b3;
+    box-shadow: 0 0 10px#d5bae2;
     animation: fillEffect 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
 }
 
@@ -668,6 +670,7 @@ footer p{
     padding: 10px;
     white-space: nowrap;
     scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
 }
 
 .card {
@@ -675,7 +678,7 @@ footer p{
     width: 250px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
