@@ -165,6 +165,7 @@ section{
 }
 
 /* PROFILE SECTION */
+
 #profile {
     display: flex;
     justify-content: center;  
@@ -670,7 +671,7 @@ footer p{
     padding: 10px;
     white-space: nowrap;
     scroll-behavior: smooth;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 238, 208);
 }
 
 .card {
@@ -678,8 +679,8 @@ footer p{
     width: 250px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(196, 221, 107);
+    box-shadow: 0 4px 6px rgba(211, 212, 128, 0.1);
     text-align: center;
 }
 
@@ -706,10 +707,24 @@ footer p{
     display: inline-block;
     margin-top: 2px;
     padding: 1px 5px;
-    background-color: #eff1ee;
+    background-color: #e2e6d4;
     color: #645783;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* All SECTION ANIMATION */
+#profile,#experience,#projects,#skills,#contact {
+    animation: fadeInUp 1s ease-in-out forwards;
+    opacity: 1; 
+    transform: translateY(20px); 
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
